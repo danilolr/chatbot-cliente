@@ -1,0 +1,7 @@
+  <table>
+  <tr *ngFor="let chat of chats" (click)="selecionado(chat)">
+    <td>{{chat.idWatsonConversationWs}}</td>
+    <td>{{chat.nome}}</td>
+    <td>{{chat.workspaceId}}</td>
+  </tr>
+  </table>

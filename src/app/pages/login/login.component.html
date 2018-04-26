@@ -1,0 +1,16 @@
+<input type='checkbox' id='form-switch'>
+<div style="width: 500px; horiz-align: center;">
+  <input type="text" [(ngModel)]="usuario" placeholder="Usuário" required>
+  <input type="password" [(ngModel)]="senha" placeholder="Senha" required>
+  <button (click)='login()'>Login</button>
+<!--  <label for='form-switch'><span>Register</span></label>
+-->
+</div>
+<form id='register-form' action="" method='post'>
+  <input type="text" placeholder="Username" required>
+  <input type="email" placeholder="Email" required>
+  <input type="password" placeholder="Password" required>
+  <input type="password" placeholder="Re Password" required>
+  <button type='submit'>Register</button>
+  <label for='form-switch'>Already Member ? Sign In Now..</label>
+</form>
